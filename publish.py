@@ -17,9 +17,9 @@ except:
   pass
   
 assembly_name = "leaguenotifier"
-static_files = [os.path.abspath("README.md"), os.path.abspath("LICENSE")]
+static_files = [os.path.abspath("README"), os.path.abspath("LICENSE")]
 project_list = [
-  { 'folder': 'BlossomiShymae.SnipSnip.Desktop/BlossomiShymae.SnipSnip.Desktop.csproj', 'type': 'desktop' }, 
+  { 'folder': 'LeagueNotifier.Desktop/LeagueNotifier.Desktop.csproj', 'type': 'desktop' }, 
 ]
 rid_list = ['win-x64']
 zipfile_list = []
